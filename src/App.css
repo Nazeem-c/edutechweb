@@ -1,0 +1,39 @@
+:root{
+    --primary--color:#6f55f2;
+    --heading--color:#132742;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    padding: 50px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+link{
+    text-decoration: none;
+    color: unset;
+}
+ul{
+   list-style: none;
+}
+
+.container{
+    width: 1340px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+
+.section_title{
+    color: var(--heading--color);
+    font-weight: 700;
+}
