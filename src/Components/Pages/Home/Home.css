@@ -1,0 +1,22 @@
+ .home_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+ }
+ .home_content .section_title{
+    font-size: 3rem;
+    padding-right: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+ }
+ .home_content p{
+    font-size: 1.1rem;
+    color: var(--heading--color);
+    margin-bottom: 30px;  
+    line-height: 30px;
+ }
+ .home_buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+ }

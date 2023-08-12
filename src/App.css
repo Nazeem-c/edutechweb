@@ -1,6 +1,7 @@
 :root{
     --primary--color:#6f55f2;
     --heading--color:#132742;
+    --font-name: 'Times New Roman', Times, serif;
 }
 * {
     margin: 0;
@@ -36,4 +37,73 @@ ul{
 .section_title{
     color: var(--heading--color);
     font-weight: 700;
+}
+.register_button{
+    background: var(--primary--color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-name);
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    padding: 7px 15px;
+
+
+}
+.home_imgwrapper{
+    position: relative;
+    z-index: 1;
+
+}
+.box01{
+    width: 400px;
+    height: 400px;
+    background-repeat: 100%;
+    border: 25px solid rgba(141,141,235,2);
+    border-radius: 54%;
+}
+.box_image{
+    position: absolute;
+    top: -13%;
+    left: -14%;
+    z-index: 10;
+}
+.box_image img{
+    width: 25.3rem;
+    height: 25.3rem;
+    border-radius: 54%;
+    margin-left: 83px;
+    margin-top: 83px;
+}
+.whatsapp_container{
+    width: 100px;
+    position: absolute;
+    top: 55%;
+    left: -11%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+.whatsapp_container h5{
+    justify-content: center;
+    font-size: .8rem;
+    color: var(--heading--color);
+    font-weight: 600; 
+}
+.support{
+    width: 70px;
+    position: absolute;
+    top: 25%;
+    left: 87%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 10px;
 }
