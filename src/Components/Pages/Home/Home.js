@@ -4,6 +4,7 @@ import meta from '../../../assets/img/meta.jpeg'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import './Home.css'
 import Community from '../Community/Community'
+import Plans from '../Plans/Plans'
 
 function Home() {
     const handleButton =()=>{
@@ -46,7 +47,8 @@ function Home() {
           </div>
       </section>
       <Courses />
-      <Community/></>
+      <Community/>
+      <Plans></Plans></>
   )
 }
 
