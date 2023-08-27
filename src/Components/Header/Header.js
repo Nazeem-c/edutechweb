@@ -1,14 +1,15 @@
 import React from 'react'
 import logo from '../../assets/img/logo.png' 
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
     const nav_items=[{
         path:'/',display:'Home'
     },{
-        path:'/',display:'Services'
+        path:'/plans',display:'Services'
     },{
-        path:'/',display:'Courses'
+        path:'/courses',display:'Courses'
     },{
         path:'/',display:'About us'
     }]
@@ -26,7 +27,7 @@ function Header() {
                     <ul className="menu">
                         {
                             nav_items.map((items)=>{
-                               return( <li className='name_item'>{items.display}</li>)
+                               return( <li className='name_item'><Link to={items.path}>{items.display}</Link></li>)
                             })
                         }
                         
