@@ -11,7 +11,7 @@ function Header() {
     },{
         path:'/courses',display:'Courses'
     },{
-        path:'/',display:'About us'
+        path:'/aboutus',display:'About us'
     }]
   return (
     <header className='header'>

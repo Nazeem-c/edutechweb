@@ -1,0 +1,11 @@
+
+.container h1{
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}

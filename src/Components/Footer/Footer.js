@@ -20,10 +20,10 @@ function Footer() {
             <h4 className="footer_title">Company</h4>
             <ul className="footer_links">
               <li>
-                <a href="">Our Programs</a>
+                <a href="/program">Our Programs</a>
               </li>
               <li>
-                <a href="">Our Plan</a>
+                <a href="/plan">Our Plan</a>
               </li>
               <li>
                 <a href="">Become a member</a>
@@ -34,13 +34,13 @@ function Footer() {
             <h4 className="footer_title">Quick Links</h4>
             <ul className="footer_links">
               <li>
-                <a href="">About us</a>
+                <a href='/aboutus'>About us</a>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <a href='/contact'>Contact Us</a>
               </li>
               <li>
-                <a href="">Support Us</a>
+                <a href='/support'>Support Us</a>
               </li>
             </ul>
           </div>
